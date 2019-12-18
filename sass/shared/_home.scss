@@ -6,7 +6,7 @@
     .right {
       position: relative;
       padding: 50px;
-      width: 50%;
+      width: 90%;
       @include respondToBelow(sm) {
         padding: 25px;
         width: 100%;
@@ -931,7 +931,7 @@
             }
           }
           &[data-fname="Suneet"] .img {
-            background-image: url(../images/vols/suneet.JPG);
+            background-image: url(../images/vols/suneet.jpg);
           }
           &[data-fname="Ilanchezhian"] .img {
             background-image: url(../images/vols/ilan.jpg);
