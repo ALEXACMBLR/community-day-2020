@@ -118,7 +118,9 @@
         <p id="toggle"><span></span></p>
         <li class="spec">
           <!--<a class="buy-ticket-link disabled button" >Sold Out</a>-->
-          <a href="#ticktes" style="font-weight: bold;">Buy Ticket</a>
+          <!--<a href="#ticktes" style="font-weight: bold;">Buy Ticket</a>-->
+          <a class="buy-ticket-link" style="font-weight: bold;">Buy Ticket</a>
+          
         </li>
         <ul>
           <li>
@@ -221,14 +223,13 @@
     <div class="section section-tickets text-center" id="ticktes">
       <div class="container">
         <h4 class="main-heading-ttl text-center">Buy Tickets</h4>
-        <!-- <div class="row flex-it"> -->
-          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 50px;padding-right: 50px;">
-        		<!-- <div class="card tick_conf with_icon border sold">  -->
-            <div class="pricing-entry pb-5 text-center">
+        <div class="row flex-it">
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 10px;padding-right: 10px;min-width: 290px;">
+        		<div class="card tick_conf with_icon border sold">  
+            <!-- <div class="pricing-entry pb-5 text-center">-->
         			<div>
                 <h3 class="mb-4">Super Early Bird</h3>
-	        			<p><span class="strikethrough" style="color: red;font-size: 21px;" >&#x20b9;499</span>
-                  <span class="price" style="font-size: 28px;font-weight: 900;">&#x20b9;449</span></p>
+	        			<p><span class="price" style="font-size: 28px;font-weight: 900;">&#x20b9;449</span></p>
                 <p style="font-size: 12px;">(Inclusive of 18% GST)</p>
 	        		</div>
         			<ul>
@@ -237,10 +238,33 @@
 								<li>Lunch &amp; Hi Tea</li>
 								<li>Goodies</li>
               </ul>
+              <div class="f1">
+                <a class="button large buy-ticket-link" style="border-radius: 100px;background-color: #01CAFE;">Buy Tickets</a>
+              </div>
+        		</div>
+          </div>
+
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 10px;padding-right: 10px;min-width: 290px;">
+        		<!-- <div class="card tick_conf with_icon border sold">  -->
+            <div class="pricing-entry pb-5 text-center">
+        			<div>
+                <h3 class="mb-4">Early Bird</h3>
+	        			<p><span class="price" style="font-size: 28px;font-weight: 900;">&#x20b9;499</span></p>
+                <p style="font-size: 12px;">(Inclusive of 18% GST)</p>
+	        		</div>
+        			<ul>
+        				<li>Full Day Access</li>
+								<li>Breakout sessions</li>
+								<li>Lunch &amp; Hi Tea</li>
+								<li>Goodies</li>
+              </ul>
+              <div class="f1">
+                <a class="button large buy-ticket-link" style="border-radius: 100px;background-color: #01CAFE;">Buy Tickets</a>
+              </div>
         		</div>
           </div>
           
-          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 50px;padding-right: 50px;">
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 10px;padding-right: 10px;min-width: 290px;">
             <!-- <div class="card tick_conf with_icon border sold">-->
             <div class="pricing-entry pb-5 text-center">
         			<div>
@@ -253,11 +277,14 @@
 								<li>Breakout sessions</li>
 								<li>Lunch &amp; Hi Tea</li>
 								<li>Goodies</li>
-        			</ul>
+              </ul>
+              <div class="f1">
+                <a class="button large buy-ticket-link" style="border-radius: 100px;background-color: #01CAFE;">Buy Tickets</a>
+              </div>
         		</div>
           </div>
           
-          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 50px;padding-right: 50px;">
+          <div class="col-md-4 ftco-animate fadeInUp ftco-animated" style="padding-left: 10px;padding-right: 10px;min-width: 290px;">
             <!--  <div class="card tick_conf with_icon border sold">-->
             <div class="pricing-entry pb-5 text-center">
         			<div>
@@ -270,13 +297,16 @@
 								<li>Breakout sessions</li>
 								<li>Lunch &amp; Hi Tea</li>
 								<li>Goodies</li>
-        			</ul>
+              </ul>
+              <div class="f1">
+                <a class="button large buy-ticket-link" style="border-radius: 100px;background-color: #01CAFE;">Buy Tickets</a>
+              </div>
         		</div>
         	</div>
-        <!-- </div> -->
+        </div>
         <div class="row flex-it">
         </div>
-        <div class="buy-wrapper row flex-it">
+        <div class="buy-wrapper row flex-it" style="display: none;">
           <div class="f1">
             <a class="button large buy-ticket-link" style="border-radius: 100px;background-color: #01CAFE;">Buy Tickets</a>
           </div>
@@ -319,8 +349,8 @@
           <h4 class="main-heading-ttl text-center">Agenda</h4>
           <div class="text-center agenda">
             <div class="f1" style="text-align: center;padding: 10px;">
-              <p style="font-size: 20px;color:#FFFFFF !important;">Its a Full Day Conference (8AM to 6PM)</p>
-              <p style="color: #d3d3d3;">Schedule will be availbale soon!!</p>
+              <!--<p style="font-size: 20px;color:#FFFFFF !important;">Its a Full Day Conference (8AM to 6PM)</p>-->
+              <p style="color: #d3d3d3;">Schedule will be available soon!!</p>
             </div>
             <div class="table" style="display: none;">
               <div class="thead">
@@ -659,7 +689,7 @@
           <div class="container">
             <div class="row justify-content-center pb-5">
               <div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
-                <h3 class="mb-4" style="color: black;font-size: 16px !important;padding: 15px;"><span>want to know about <a style="color: #00A7CE;font-size: 18px !important;">Sponsorships?</a> Please mail us on <a style="color: #00A7CE;font-size: 18px !important;">alexacmblr@gmail.com</a></span></h3></p>
+                <h3 class="mb-4" style="color: black;font-size: 16px !important;padding: 15px;"><span>Want to know about <a style="color: #00A7CE;font-size: 18px !important;">Sponsorships?</a> Please mail us on <a style="color: #00A7CE;font-size: 18px !important;">alexacmblr@gmail.com</a></span></h3></p>
               </div>
             </div>
           </div>
@@ -692,6 +722,17 @@
                         <b>Greg Bulmash</b>
                         <br>
                         <small>Solutions Architect at Amazon</small>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="spk_itm flex-it">
+                    <div class="prod_im"><img src="images/speakers/vishpai.jpeg" alt=""></div>
+                    <div class="namenid">
+                      <p>
+                        <b>Vishwesh Pai</b>
+                        <br>
+                        <small>Alexa Product Manager at Amazon</small>
                       </p>
                     </div>
                   </div>
@@ -765,7 +806,7 @@
               
             </div>
             <div class="f1" style="padding-top: 75px;color:#FFFFFF !important;text-align: center;">
-              &#x22;Call for Proposals for Alexa Community Day is now open.&#x22; <a href="https://docs.google.com/forms/d/e/1FAIpQLSfchtJK8CQJvf5xQgMDjqyuw3-kV1emttm13eLfdfZWKoTVEQ/viewform" class="button" style="border-radius: 100px;background:#01CAFE;;line-height: 35px !important; height: 35px !important; padding: 0 15px !important;">Submit your talk!</a>
+              Call for Proposals for Alexa Community Day is now open. <a href="https://docs.google.com/forms/d/e/1FAIpQLSfchtJK8CQJvf5xQgMDjqyuw3-kV1emttm13eLfdfZWKoTVEQ/viewform" class="button" style="border-radius: 100px;background:#01CAFE;;line-height: 35px !important; height: 35px !important; padding: 0 15px !important;">Submit your talk!</a>
             </div>
         </div>
       </div>
@@ -797,6 +838,12 @@
               <div class="person" data-fname="Anup" data-lname="Narayana">
                 <div class="img">
                   <a target="_blank" href="https://www.linkedin.com/in/anup-narayana-b8a559123/">
+                    <i class="icon large ion-logo-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="person" data-fname="Chetan" data-lname="k'shetty">
+                <div class="img">
+                  <a target="_blank" href="https://www.linkedin.com/in/chetan-k-shetty-80875b60/">
                     <i class="icon large ion-logo-linkedin"></i></a>
                 </div>
               </div>

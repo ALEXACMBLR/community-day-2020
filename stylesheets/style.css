@@ -2192,6 +2192,10 @@ ul.circle li {
   background-image: url(../images/vols/anup.jpeg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Chetan"] .img {
+  background-image: url(../images/vols/chetan.jpeg);
+}
+
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
   margin: -50px auto 0px;
@@ -2687,7 +2691,7 @@ i.icon.large {
     padding: 0; }
     .pricing-entry ul li {
       list-style: none;
-      padding: 10px 20px;
+      padding: 5px 10px;
       color: rgba(0, 0, 0, 0.7); }
       .pricing-entry ul li:nth-child(odd) {
         background: #fafafa; }
