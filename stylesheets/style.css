@@ -1908,6 +1908,15 @@ ul.circle li {
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).konfhub {
   background-image: url(../images/spons/konfhub.jpg);
 }
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).antstack {
+  background-image: url(../images/spons/antstack.svg);
+}
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).botmock {
+  background-image: url(../images/spons/botmock.png);
+}
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).datavizz {
+  background-image: url(../images/spons/datavizz.png);
+}
 /* line 757, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).alexa {
   background-image: url(../images/spons/alexa.jpg);
