@@ -1911,11 +1911,20 @@ ul.circle li {
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).antstack {
   background-image: url(../images/spons/antstack.svg);
 }
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).dabblelab {
+  background-image: url(../images/spons/dabblelab.png);
+}
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).botmock {
   background-image: url(../images/spons/botmock.png);
 }
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).w3w {
+  background-image: url(../images/spons/w3w.png);
+}
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).datavizz {
   background-image: url(../images/spons/datavizz.png);
+}
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).voicetechp {
+  background-image: url(../images/spons/voicetechp.png);
 }
 /* line 757, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).alexa {
