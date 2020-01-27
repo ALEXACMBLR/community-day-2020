@@ -1920,11 +1920,17 @@ ul.circle li {
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).w3w {
   background-image: url(../images/spons/w3w.png);
 }
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).evry {
+  background-image: url(../images/spons/evry.jpg);
+}
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).datavizz {
   background-image: url(../images/spons/datavizz.png);
 }
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).voicetechp {
   background-image: url(../images/spons/voicetechp.png);
+}
+#page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).jetbrains {
+  background-image: url(../images/spons/jetbrains.png);
 }
 /* line 757, ../sass/shared/_home.scss */
 #page .section-5 .sponsors .cats .flex-it .f1 > div:not(.head).alexa {
