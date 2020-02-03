@@ -157,10 +157,10 @@ $(function() {
 
     var endTime = new Date("8 February 2020 8:45:00 GMT+05:30");			
     endTime = (Date.parse(endTime) / 1000);
-
+    
     var now = new Date();
     now = (Date.parse(now) / 1000);
-
+    console.log("now: ",now);
     var timeLeft = endTime - now;
 
     var days = Math.floor(timeLeft / 86400); 
