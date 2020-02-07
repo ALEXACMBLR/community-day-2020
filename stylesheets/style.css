@@ -2220,6 +2220,34 @@ ul.circle li {
   background-image: url(../images/vols/chetan.jpeg);
 }
 
+#page .section-6 .volunteers .vl-i .person[data-fname="Abhinav"] .img {
+  background-image: url(../images/vols/Abhinav_Shet.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Divyashree"] .img {
+  background-image: url(../images/vols/Divyashree_Shetty.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Manoj"] .img {
+  background-image: url(../images/vols/Manoj.png);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Nisha"] .img {
+  background-image: url(../images/vols/Nisha_Prasad.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Sanjay"] .img {
+  background-image: url(../images/vols/Sanjay.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Panish"] .img {
+  background-image: url(../images/vols/Panish_Sv.jpg);
+}
+
+#page .section-6 .volunteers .vl-i .person[data-fname="Sucheendra"] .img {
+  background-image: url(../images/vols/Sucheendra.png);
+}
+
 /* line 1056, ../sass/shared/_home.scss */
 #page .section-7 {
   margin: -50px auto 0px;
